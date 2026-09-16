@@ -1,0 +1,8 @@
+mss>=9.0
+numpy>=1.24
+opencv-python>=4.8
+pynput>=1.7.6
+customtkinter>=5.2
+pillow>=10.0
+pyobjc-framework-Quartz>=9.0
+pyobjc-framework-AppKit>=9.0
