@@ -38,6 +38,12 @@ input/window layer for a `uinput` backend. It reuses the shared core in
 Windows branch. Setup and the current limitations are in
 **[`LINUX/README_LINUX.md`](LINUX/README_LINUX.md)**.
 
+## 🍎 [`MACOS/`](MACOS/README_MACOS.md) — experimental (Monterey Intel)
+
+This is a compatibility port for Intel Macs running macOS Monterey. It keeps
+sharing the same engine and GUI from `WINDOWS/`, but swaps in a Quartz/CoreGraphics
+input and window layer. The launcher is in **[`MACOS/easy_run_macos.py`](MACOS/easy_run_macos.py)** and the setup notes are in **[`MACOS/README_MACOS.md`](MACOS/README_MACOS.md)**.
+
 ---
 
 *Personal project shared as-is. Automating a game may be against its rules; use
